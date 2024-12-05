@@ -16,10 +16,10 @@ class LoginScreen extends StatelessWidget {
           style: TextStyle(fontSize: 24, color: Colors.white),
         ),
       ),
-      backgroundColor: Colors.blue[50], // Fundo mais amigável
+      backgroundColor: Colors.blue[50],
       body: Center(
         child: Padding(
-          padding: const EdgeInsets.all(20.0), // Espaçamento ao redor
+          padding: const EdgeInsets.all(20.0),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
@@ -29,7 +29,7 @@ class LoginScreen extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 32,
                   fontWeight: FontWeight.bold,
-                  color: Colors.blue[800], // Cor do texto
+                  color: Colors.blue[800],
                 ),
               ),
               const SizedBox(height: 20),
@@ -37,7 +37,7 @@ class LoginScreen extends StatelessWidget {
                 'Faça login para continuar',
                 style: TextStyle(
                   fontSize: 18,
-                  color: Colors.blueGrey[600], // Tom mais suave
+                  color: Colors.blueGrey[600],
                 ),
                 textAlign: TextAlign.center,
               ),
@@ -51,8 +51,8 @@ class LoginScreen extends StatelessWidget {
                 width: double.infinity,
                 child: ElevatedButton(
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.white, // Fundo branco
-                    foregroundColor: Colors.black, // Texto preto
+                    backgroundColor: Colors.white,
+                    foregroundColor: Colors.black,
                     padding: const EdgeInsets.symmetric(vertical: 16),
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(8),

@@ -10,7 +10,7 @@ class HomeScreen extends StatelessWidget {
     final user = FirebaseAuth.instance.currentUser;
 
     return Scaffold(
-      backgroundColor: Colors.blue[50], // Fundo consistente com a tela de login
+      backgroundColor: Colors.blue[50],
       appBar: AppBar(
         backgroundColor: Colors.blue[800],
         title: const Text(
@@ -20,7 +20,7 @@ class HomeScreen extends StatelessWidget {
       ),
       body: Center(
         child: Padding(
-          padding: const EdgeInsets.all(20.0), // Espaçamento ao redor
+          padding: const EdgeInsets.all(20.0),
           child: user == null
               ? const Text(
                   'Nenhum usuário autenticado.',
