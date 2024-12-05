@@ -22,6 +22,7 @@ class HomeScreen extends StatelessWidget {
             icon: const Icon(Icons.logout),
             onPressed: () async {
               await FirebaseServices().googleSignOut();
+              Navigator.of(context).pop();
             },
           ),
         ],
