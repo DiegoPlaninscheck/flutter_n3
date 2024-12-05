@@ -13,9 +13,14 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
+      title: "Login with Google",
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.white),
+        useMaterial3: true,
+      ),
+      home: const LoginScreen(),
       debugShowCheckedModeBanner: false,
-      home: LoginScreen(),
     );
   }
 }
